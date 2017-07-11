@@ -1,0 +1,3 @@
+﻿微信小程序view的属性,scroll-view,swiper的使用
+默认主页是swiper幻灯片
+修改默认主页位置请在app.js中修改
