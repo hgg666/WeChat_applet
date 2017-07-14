@@ -1,0 +1,3 @@
+image存放的是项目图片
+pages/index/index.wxml为我们的主页
+主页我们只完成了排版设计

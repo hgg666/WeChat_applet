@@ -1,0 +1,49 @@
+<view class="container" >
+ 
+ <!--图片轮播-->
+ <view class="selections">
+ <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="true" interval="3000" duration="1000">
+  <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+    <swiper-item>
+    <image src="{{item}}" style="width:100%" mode="scaleToFill"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<view class="selection">
+  <view class="header">
+      <text>精品推荐</text>
+      <text class="text-all">全部精品</text>
+  </view>
+  <view class="content">
+      <view class="content-item" wx:for="{{         contentItems}}"><image src="../../image/item1-3.jpg"></image>
+      <view class="content-item-text">
+        <text>这里是标题</text>
+      </view>
+      </view>
+  </view>
+</view>
+
+<view class="selection">
+  <view class="header">
+      <text>热门评测</text>
+      <text class="text-all">全部精品</text>
+  </view>
+
+  <view class="list-item" wx:for="{{listItems}}">
+    <view class="list-item-images">
+      <image src="../../image/item1-1.jpg" class="list-item-images-img"></image>
+       <image src="../../image/swatar.png" class="swatar"></image>
+    </view>
+    <view class="list-item-text">
+      <view class="list-item-text-title"><text>这是一个标题</text></view>  
+      <view class="list-item-text-content">
+        <text>这是一个内容这是一个内容这是一个内容这是一个内容这是一个内容这是一个内容这是一个内容这是一个内容这是一个内容</text>
+      </view>  
+    </view>
+  </view>
+</view>
+
+</view>
