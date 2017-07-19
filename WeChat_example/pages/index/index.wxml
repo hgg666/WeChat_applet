@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="page">
+<text class="pageTitle">最新主题</text>
+
+  <view class="post" catchtap="onTouch" id="1">
+    <view>
+      <image src="../../images/head/head1.jpg" class="heading"></image>
+      <text class="headText">text</text>
+    </view>
+    <view class="title">
+      <text class="titleText">这里是标题</text>
+    </view>
+    <view class="replyBox">
+      <text class="replyText">10条回复</text>
+      <text class="replyText">节点</text>
+    </view>
+  </view>
+
+  <view class="post">
+    <view>
+      <image src="../../images/head/head1.jpg" class="heading"></image>
+      <text class="headText">text</text>
+    </view>
+    <view class="title">
+      <text class="titleText">这里是标题</text>
+    </view>
+    <view class="replyBox">
+      <text class="replyText">10条回复</text>
+      <text class="replyText">节点</text>
+    </view>
+  </view>
+
+  <text class="pageTitle">最热主题</text>
+  <view class="post">
+    <view>
+      <image src="../../images/head/head1.jpg" class="heading"></image>
+      <text class="headText">text</text>
+    </view>
+    <view class="title">
+      <text class="titleText">这里是标题</text>
+    </view>
+    <view class="replyBox">
+      <text class="replyText">10条回复</text>
+      <text class="replyText">节点</text>
+    </view>
+  </view>
+
+  <view class="post">
+    <view>
+      <image src="../../images/head/head1.jpg" class="heading"></image>
+      <text class="headText">text</text>
+    </view>
+    <view class="title">
+      <text class="titleText">这里是标题</text>
+    </view>
+    <view class="replyBox">
+      <text class="replyText">10条回复</text>
+      <text class="replyText">节点</text>
+    </view>
+  </view>
+</view>

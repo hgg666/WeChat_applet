@@ -1,0 +1,33 @@
+.page{
+  display:flex;
+  flex-direction: column;
+}
+.pageTitle{
+  font-size: 17pt;
+  color: #09BB07;
+}
+.post{
+  margin-bottom:10px;
+  padding: 5px;
+  border-bottom: 5px solid #EFEFF3;
+}
+.heading{
+  width:20px;
+  height:20px;
+}
+.title{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.titleText{
+  font-size:17pt;
+  color: #353535;
+}
+.replyBox{
+  display:flex;
+  justify-content: space-between;
+}
+.replyText .headText{
+  font-size: 14pt;
+  color:#888888;
+}

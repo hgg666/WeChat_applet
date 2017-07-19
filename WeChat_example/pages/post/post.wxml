@@ -1,0 +1,16 @@
+<view class="postBox">
+
+  <view class="postInfo">
+    <view><text class="postTitle">{{post.title}}</text></view>
+    <view><text class="postUser">{{post.number.username}}</text></view>
+    <view><text class="postContent">{{post.content}}</text></view>
+    <view class="postReply"><text  class="postReply1">{{post.replies}}条回复</text><text  class="postReply1">{{post.node.title }}</text></view>
+  </view>
+
+  <view class="commentBox" wx:for="{{comment}}">
+    <view><text>{{item.member.username}}</text></view>
+    <view><text>{{item.content}}</text></view>
+  </view>
+
+  
+</view>
